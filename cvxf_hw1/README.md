@@ -23,15 +23,18 @@
 ### **2.1 personal image**
 **Orange**
 
-![](https://i.imgur.com/yrmL0HZ.png | width=48)
+<img src="https://i.imgur.com/yrmL0HZ.png" width="255">
 
-![](https://i.imgur.com/9rlTn3H.png | width=48)
+<img src="https://i.imgur.com/9rlTn3H.png" width="255">
+
 
 
 **Apple**
 
+<img src="https://i.imgur.com/VOJ9ItO.png" width="255">
 ![](https://i.imgur.com/VOJ9ItO.png | width=48)
 
+<img src="https://i.imgur.com/slMq9vY.png" width="255">
 ![](https://i.imgur.com/slMq9vY.png | width=48)
 
 
