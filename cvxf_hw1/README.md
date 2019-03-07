@@ -80,7 +80,7 @@
 
 **Loss Function:**
 
-<img src="https://i.imgur.com/hf3G0MQ.png" width="255">
+<img src="https://i.imgur.com/hf3G0MQ.png" width="400">
 
 **Result:**
 ------
