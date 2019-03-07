@@ -75,9 +75,11 @@
 [paperlink](https://https://arxiv.org/abs/1508.06576)
 
 **Architecture**
-<img src="https://i.imgur.com/DuXomab.png" width="255">
+
+<img src="https://i.imgur.com/DuXomab.png" width="455">
 
 **Loss Function:**
+
 <img src="https://i.imgur.com/hf3G0MQ.png" width="255">
 
 **Result:**
@@ -98,18 +100,4 @@
 ------
 
 <br/><br/>
-<br/><br/><br/><br/><br/>
 
-
-
-Mutual evaluation之評分準則: (5%)
-1%:  Inference之效果
-2%:  Compare with other method的比較分析是否夠完整
-2%:  報告呈現完整度 
-
-Assistant 之評分準則: (30%)
-5%:  Inference之效果
-5%:  所使用之比較方法的難易程度
-10%:  Compare with other method的比較分析是否夠完整
-10%:  報告呈現完整度
-Bonus 5%:  Top 3 bonus 
