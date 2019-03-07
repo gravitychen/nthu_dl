@@ -32,17 +32,16 @@
 **Apple**
 
 <img src="https://i.imgur.com/VOJ9ItO.png" width="255">
-![](https://i.imgur.com/VOJ9ItO.png | width=48)
 
 <img src="https://i.imgur.com/slMq9vY.png" width="255">
-![](https://i.imgur.com/slMq9vY.png | width=48)
+
 
 
 ### **2.2 Inference Result**
 ------
 **Apple to Orange**
 
-![](https://i.imgur.com/u8uNsNt.png)
+![](https://i.imgur.com/u8uNsNt.png) 
 ![](https://i.imgur.com/DseMyNm.png)
 ------
 **Orange to Apple**
@@ -59,41 +58,43 @@
 ### **3.1 Super fast color transfer between images**
 **Apple to Orange**
 
-![](https://i.imgur.com/Pvgks4U.jpg ) 
-![](https://i.imgur.com/CTzRhin.jpg )
-![](https://i.imgur.com/qnJmFBt.jpg ) 
-![](https://i.imgur.com/Vkn8Gqo.jpg )
+<img src="https://i.imgur.com/Pvgks4U.jpg " width="255">
+<img src="https://i.imgur.com/CTzRhin.jpg " width="255">
+<img src="https://i.imgur.com/qnJmFBt.jpg " width="255">
+<img src="https://i.imgur.com/Vkn8Gqo.jpg " width="255">
 -----
 **Orange to Apple**
 
-![](https://i.imgur.com/2B3fTCz.jpg) ![](https://i.imgur.com/iHJaU6U.jpg )
-![](https://i.imgur.com/5H2TERx.jpg) ![](https://i.imgur.com/GoxrfvA.jpg )
+<img src="https://i.imgur.com/2B3fTCz.jpg " width="255">
+<img src="https://i.imgur.com/iHJaU6U.jpg " width="255">
+<img src="https://i.imgur.com/5H2TERx.jpg" width="255">
+<img src="https://i.imgur.com/GoxrfvA.jpg " width="255">
 
 
 ### **3.2 [DeepArt](https://deepart.io/#)**
 [paperlink](https://https://arxiv.org/abs/1508.06576)
 
 **Architecture**
-![](https://i.imgur.com/DuXomab.png)
+<img src="https://i.imgur.com/DuXomab.png" width="255">
 
 **Loss Function:**
-![](https://i.imgur.com/hf3G0MQ.png)
+<img src="https://i.imgur.com/hf3G0MQ.png" width="255">
 
 **Result:**
 ------
 **Apple to orange**
 
-![](https://i.imgur.com/B4z1O3y.jpg)
-![](https://i.imgur.com/6WsqlBr.jpg)
-![](https://i.imgur.com/qaGd3Lu.jpg)
-![](https://i.imgur.com/RZTp1d1.jpg)
+<img src="https://i.imgur.com/B4z1O3y.jpg" width="255">
+<img src="https://i.imgur.com/6WsqlBr.jpg" width="255">
+<img src="https://i.imgur.com/qaGd3Lu.jpg" width="255">
+<img src="https://i.imgur.com/RZTp1d1.jpg" width="255">
 ------
 **Orange To Apple**
 -------
-![](https://i.imgur.com/vqCuyuG.jpg)
-![](https://i.imgur.com/HlTjJhj.jpg)
-![](https://i.imgur.com/r6f0u48.jpg)
-![](https://i.imgur.com/nbQoezF.jpg)
+<img src="https://i.imgur.com/vqCuyuG.jpg" width="255">
+<img src="https://i.imgur.com/HlTjJhj.jpg" width="255">
+<img src="https://i.imgur.com/r6f0u48.jpg" width="255">
+<img src="https://i.imgur.com/nbQoezF.jpg" width="255">
 ------
 
 <br/><br/>
