@@ -22,17 +22,13 @@
 ## **2.Inference cycleGAN in personal image**
 ### **2.1 personal image**
 **Orange**
-------
 
 ![](https://i.imgur.com/yrmL0HZ.png | width=48)
 
 ![](https://i.imgur.com/9rlTn3H.png | width=48)
 
-------
 
 **Apple**
-
-------
 
 ![](https://i.imgur.com/VOJ9ItO.png | width=48)
 
