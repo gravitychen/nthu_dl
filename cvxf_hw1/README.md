@@ -23,13 +23,20 @@
 ### **2.1 personal image**
 **Orange**
 ------
-![](https://i.imgur.com/yrmL0HZ.png )
-![](https://i.imgur.com/9rlTn3H.png )
+
+![](https://i.imgur.com/yrmL0HZ.png | width=48)
+
+![](https://i.imgur.com/9rlTn3H.png | width=48)
+
 ------
+
 **Apple**
+
 ------
-![](https://i.imgur.com/VOJ9ItO.png ) 
-![](https://i.imgur.com/slMq9vY.png )
+
+![](https://i.imgur.com/VOJ9ItO.png | width=48)
+
+![](https://i.imgur.com/slMq9vY.png | width=48)
 
 
 ### **2.2 Inference Result**
@@ -106,6 +113,3 @@ Assistant 之評分準則: (30%)
 10%:  Compare with other method的比較分析是否夠完整
 10%:  報告呈現完整度
 Bonus 5%:  Top 3 bonus 
-×
-Drag and Drop
-The image will be downloaded by Fatkun
