@@ -4,10 +4,10 @@
 
 # Outline
 
-**1.Training MUNIT
-2.Other four methods
-3.Inference result
-4.Compare&Conclusion**
+**1.Training MUNIT**
+**2.Other four methods**
+**3.Inference result**
+**4.Compare&Conclusion**
 
 ## 1.Training MUNIT
 
