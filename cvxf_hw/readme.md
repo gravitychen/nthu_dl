@@ -4,13 +4,10 @@
 
 # Outline
 
-**1.Training MUNIT**
-
-**2.Other four methods**
-
-**3.Inference result**
-
-**4.Compare&Conclusion**
+**1.Training MUNIT
+2.Other four methods
+3.Inference result
+4.Compare&Conclusion**
 
 ## 1.Training MUNIT
 
@@ -45,14 +42,16 @@ DRIT用GAN學兩個domain X和Y 之間的映射關係.受CycleGAN和MUNIT的啓�
 
 ### 2.2 [FastPhotoStyle](https://arxiv.org/abs/1802.06474)       ------ECCV 2018
 
-![](https://i.imgur.com/oX0STp8.png)
+NVIDIA和加州大學的研究團隊提出了一種新的解決照片級圖像風格化的方法——FastPhotoStyle。該方法包括兩個步驟：風格化和平滑化。大量的實驗表明，該方法生成的圖像比以前的最先進的方法更真實、更引人注目。更重要的是，由於採用封閉式的解決方案，FastPhotoStyle生成風格化圖像的速度比傳統方法快49倍。
 
+![](https://i.imgur.com/oX0STp8.png)
+可以看到FastPhotoStyle的network算是比較輕量級的。model由stylization step和smoothing step組成。當stylization step將引用照片的樣式轉換為內容照片時，smoothing step確保空間上一致的樣式化。
 
 ### 2.3 neural_style
 
 ![](https://i.imgur.com/7HKckti.png)
 
-
+這是傳統的做法，x通過fw神經網路生成圖片y,再把content圖像（即x）和style圖像在通過VGG後取得的不同層的特徵圖，並以此來衡量和限制生成圖片y，使之不僅能保留content的結構，並且具有style影像的紋理風格。
 
 
 
@@ -159,22 +158,12 @@ neural-style 這個方法比較心狠手辣，雖然也保留著一點原來的c
 | 訓練耗時      |   很耗時    |  很耗時    |      迅速           |    3mins          |       很耗時    |
 | inference時間      |  迅速     |  迅速    |         快        |     快     |     快      |
 | inference效果 |    1   |   2   |        差         |          一般    |      佳     |
-| GPU使用       |   使用    |  使用    |       使用          |   使用          |   使用       |
+| GPU使用       |   1    |  2    |       0.5G          |   6G           |   1.7       |
 | 使用的memory  |  4G     |   10G(bs=128)    |      1G |    4G  |      5G      |
-
-
 Conclusion:
    可以看到不管用什麼方法， 照片轉到古畫的時候，表現都會比較好，我想是因為古畫的特征之一就是背景都是淡黃色的顏色。model學習的內容既然就不需要像古風轉現實那麼多，畢竟現實的image有千千萬萬種顏色，model也比較難以駕馭。
 
 
 
 <br/><br/>
-<br/><br/><br/><br/><br/>
-
-
-
-
-
-
-
-
+<br/><br/><br/>
