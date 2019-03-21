@@ -15,10 +15,12 @@
 
 
 training logs:
+
 <img src="https://i.imgur.com/nhklRrB.png" width="355">
 
 
 saved model:
+
 <img src="https://i.imgur.com/noItfQj.png" width="355">
 
 
