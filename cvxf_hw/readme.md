@@ -30,9 +30,9 @@ saved model:
 > 1. DRIT
 > 2. FastPhotoStyle
 > 3. neural_style
-> 4. cycle-GAN
 
-- ### DRIT
+
+- ### 2.1 DRIT
 
 model:
 ![](https://i.imgur.com/iNuJ7nF.png)
@@ -40,14 +40,16 @@ model:
 
 DRIT用GAN學兩個domain X和Y 之間的映射關係.受CycleGAN和MUNIT的啓發，CycleGAN的兩個latent space是分開的，MUNIT共享latent space. DRIT則共享content space，獨享attribute space.Network同樣由cross-domain部分和within domain兩個部分組成，cross-domain用來生成交換風格後的圖像，within domain用來重建圖像，同時也使用Cycle Consistency Loss.
 
-### [FastPhotoStyle](https://arxiv.org/abs/1802.06474)
+### 2.2 [FastPhotoStyle](https://arxiv.org/abs/1802.06474)       ------ECCV 2018
+
+![](https://i.imgur.com/oX0STp8.png)
 
 
-### neural_style
+### 2.3 neural_style
+
+![](https://i.imgur.com/7HKckti.png)
 
 
-### cycle-GAN
-参照Homework1
 
 
 
@@ -107,6 +109,7 @@ DRIT用GAN學兩個domain X和Y 之間的映射關係.受CycleGAN和MUNIT的啓�
 | ![](https://i.imgur.com/cEDUBRZ.png) |![](https://i.imgur.com/g6Zr1WK.png)|![](https://i.imgur.com/sWcDiyj.png)| ![](https://i.imgur.com/rLbYHiC.png)|
 | ![](https://i.imgur.com/nCqHRiW.png) | ![](https://i.imgur.com/0PUMzVc.png)| ![](https://i.imgur.com/znoV8h4.png)| ![](https://i.imgur.com/c3nAGfw.png)|
 
+fast-photo-style這個方法 能較好的均衡顏色方面的信息，可以看到當第二張要轉換的圖像上的衣服顏色為紅藍相間，所以三張content轉換之後的成果都表現出了紅色與藍色。
 
 | FastPhoto-Style              | ![](https://i.imgur.com/klgcr9G.png) | ![](https://i.imgur.com/cEDUBRZ.png) | ![](https://i.imgur.com/nCqHRiW.png) |
 |--------------------------------------|--------------------------------------|--------------------------------------|-------------------------------------|
@@ -139,6 +142,7 @@ DRIT用GAN學兩個domain X和Y 之間的映射關係.受CycleGAN和MUNIT的啓�
 | ![](https://i.imgur.com/Cj3hdo3.png) |![](https://i.imgur.com/51yxt7O.png)|![](https://i.imgur.com/T5XYCDY.png)| ![](https://i.imgur.com/jMZAeHR.png)
 |![](https://i.imgur.com/jXL2sqg.png) |![](https://i.imgur.com/Ewx5Tay.png)|![](https://i.imgur.com/trgp5L7.png)|![](https://i.imgur.com/nKabh6K.png)|
 
+neural-style 這個方法比較心狠手辣，雖然也保留著一點原來的content，但是相比較其他方法，content破壞了許多。特別是在照片轉古畫的時候，幾乎看不出原圖有什麼東西。
 
 
 
