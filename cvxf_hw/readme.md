@@ -145,7 +145,7 @@ DRIT用GAN學兩個domain X和Y 之間的映射關係.受CycleGAN和MUNIT的啓�
 | inference時間      |  迅速     |  迅速    |         快        |     快     |     快      |
 | inference效果 |    1   |   2   |        差         |          一般    |      佳     |
 | GPU使用       |   1    |  2    |       0.5G          |   6G           |   1.7       |
-| 使用的memory  |  佔用大量記憶體     |   佔用大量記憶體    |      1G |      |      1.7G      |
+| 使用的memory  |  4G     |   10G(bs=128)    |      1G |    4G  |      5G      |
 
 Conclusion:
 
