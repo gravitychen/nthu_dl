@@ -1,4 +1,3 @@
-
 # NTHU_CVFX_HomeWork2_Team20
 
 
@@ -41,12 +40,14 @@ model:
 
 DRIT用GAN學兩個domain X和Y 之間的映射關係.受CycleGAN和MUNIT的啓發，CycleGAN的兩個latent space是分開的，MUNIT共享latent space. DRIT則共享content space，獨享attribute space.Network同樣由cross-domain部分和within domain兩個部分組成，cross-domain用來生成交換風格後的圖像，within domain用來重建圖像，同時也使用Cycle Consistency Loss.
 
-### FastPhotoStyle
+### [FastPhotoStyle](https://arxiv.org/abs/1802.06474)
+
 
 ### neural_style
 
-### cycle-GAN
 
+### cycle-GAN
+参照Homework1
 
 
 
@@ -60,6 +61,7 @@ DRIT用GAN學兩個domain X和Y 之間的映射關係.受CycleGAN和MUNIT的啓�
 | ![](https://i.imgur.com/Cj3hdo3.png) | ![](https://i.imgur.com/78ZbIQ0.png)                                   | ![](https://i.imgur.com/KbU9q7t.png)                                   | ![](https://i.imgur.com/jwnZFbx.png)                                  |
 | ![](https://i.imgur.com/jXL2sqg.png)| ![](https://i.imgur.com/oxWhjjx.png)                                  | ![](https://i.imgur.com/H0aZXj3.png)                                  | ![](https://i.imgur.com/PffnLjS.png)                                 |
 
+以上是將古風轉換為照片的inference的結果，可以看到當照片的顏色偏暗的話，結果一樣會變暗，反之亦然。可以看到結果並不是那麼理想，因為比如其中的人像，經過轉換之後還有看得出會有人像的部分。但是時間在訓練過程中，效果都挺好的，但是不知道為什麼inference的時候效果並不理想。
 
 |    MUNIT                                                          | ![](https://i.imgur.com/DNsRM0v.png) | ![](https://i.imgur.com/Cj3hdo3.png) | ![](https://i.imgur.com/jXL2sqg.png) |
 |--------------------------------------|--------------------------------------|--------------------------------------|-------------------------------------|
@@ -67,6 +69,7 @@ DRIT用GAN學兩個domain X和Y 之間的映射關係.受CycleGAN和MUNIT的啓�
 | ![](https://i.imgur.com/cEDUBRZ.png) | ![](https://i.imgur.com/YgehFw2.png)                                   | ![](https://i.imgur.com/U1cuDSm.png)                                   |  ![](https://i.imgur.com/Ls3pt8w.png)                                  |
 | ![](https://i.imgur.com/nCqHRiW.png) | ![](https://i.imgur.com/90cLh1h.png)                                  | ![](https://i.imgur.com/0to7330.png)                                  | ![](https://i.imgur.com/PEhRQKd.png)                                 |
 
+當使用model進行照片轉到古畫的時候，效果就好多了。可以看到九張圖的顏色整體都會偏到淡黃色，當要轉換的圖片風格偏藍(綠)色的時候，轉換后一樣出現偏藍(綠)色。
 
 ----
 ----
@@ -81,15 +84,20 @@ DRIT用GAN學兩個domain X和Y 之間的映射關係.受CycleGAN和MUNIT的啓�
 | ![](https://i.imgur.com/nCqHRiW.png) | ![](https://i.imgur.com/HcHmjuB.png)                                  | ![](https://i.imgur.com/LpFFUo8.png)                                  | ![](https://i.imgur.com/2HH8org.png)                                 |
 
 
+
 | DRIT                                 | ![](https://i.imgur.com/klgcr9G.png) | ![](https://i.imgur.com/cEDUBRZ.png) | ![](https://i.imgur.com/nCqHRiW.png) |
 |--------------------------------------|--------------------------------------|--------------------------------------|-------------------------------------|
 | ![](https://i.imgur.com/jXL2sqg.png) | ![](https://i.imgur.com/J8lMD3c.png)| ![](https://i.imgur.com/uAlhNZO.png)                                    | ![](https://i.imgur.com/SgUh2At.png)                                   |
 | ![](https://i.imgur.com/Cj3hdo3.png) | ![](https://i.imgur.com/s8Wf0vl.png)                                   | ![](https://i.imgur.com/JQXw1VZ.png)                                   | ![](https://i.imgur.com/d3iBGUh.png)                                  |
 | ![](https://i.imgur.com/DNsRM0v.png) |  ![](https://i.imgur.com/VCcwEuu.png)                          | ![](https://i.imgur.com/3qzZCmR.png)                                    | ![](https://i.imgur.com/oibFdd9.png)
-|
+
+
+使用DRIT按這個方法，我認為在古風的方面，它的效果會比較好，它展現出來的畫更生動，比較少出現artifact，但是當使用古畫轉到照片的時候，其中第二張圖可以很明顯的看出，轉換后的結果還是一個畫畫中的女子。
 
 
 
+----
+----
 
 ### **3.2 FastPhoto-Style**
 
@@ -146,8 +154,15 @@ DRIT用GAN學兩個domain X和Y 之間的映射關係.受CycleGAN和MUNIT的啓�
 | inference效果 |    1   |   2   |        差         |          一般    |      佳     |
 | GPU使用       |   1    |  2    |       0.5G          |   6G           |   1.7       |
 | 使用的memory  |  4G     |   10G(bs=128)    |      1G |    4G  |      5G      |
-
 Conclusion:
+   可以看到不管用什麼方法， 照片轉到古畫的時候，表現都會比較好，我想是因為古畫的特征之一就是背景都是淡黃色的顏色。model學習的內容既然就不需要像古風轉現實那麼多，畢竟現實的image有千千萬萬種顏色，model也比較難以駕馭。
+
+
+
+<br/><br/>
+<br/><br/><br/><br/><br/>
+
+
 
 
 
