@@ -6,7 +6,7 @@
 
 **1.Training MUNIT**
 
-**2.Other four methods**
+**2.Other three methods**
 
 **3.Inference result**
 
@@ -29,7 +29,7 @@ saved model:
 
 
 
-## **2. Other four methods**
+## **2. Other three methods**
 > 1. DRIT
 > 2. FastPhotoStyle
 > 3. neural_style
