@@ -15,15 +15,12 @@
 
 
 training logs:
-![](https://i.imgur.com/nhklRrB.png)
+<img src="https://i.imgur.com/nhklRrB.png" width="355">
 
 
 saved model:
-![](https://i.imgur.com/noItfQj.png)
+<img src="https://i.imgur.com/noItfQj.png" width="355">
 
-```
-<img src="https://i.imgur.com/B4z1O3y.jpg" width="255">
-```
 
 
 
