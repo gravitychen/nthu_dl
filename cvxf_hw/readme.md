@@ -87,7 +87,7 @@ Test result:89k iteration
 |--------------------------------------|--------------------------------------|--------------------------------------|-------------------------------------|
 | ![](https://i.imgur.com/klgcr9G.png) | ![](https://i.imgur.com/ico3aiO.png)                                    | ![](https://i.imgur.com/aXmm4iO.png)                                    | ![](https://i.imgur.com/t1oNztm.png)                                   |
 | ![](https://i.imgur.com/cEDUBRZ.png) | ![](https://i.imgur.com/YgehFw2.png)                                   | ![](https://i.imgur.com/U1cuDSm.png)                                   |  ![](https://i.imgur.com/Ls3pt8w.png)                                  |
-| ![](https://i.imgur.com/nCqHRiW.png) | ![](https://i.imgur.com/90cLh1h.png)                                  | ![](https://i.imgur.com/0to7330.png)                                  | ![](https://i.imgur.com/PEhRQKd.png)                                 |
+| ![](https://i.imgur.com/nCqHRiW.png) | ![](https://i.imgur.com/xc9EVEC.png)                                  | ![](https://i.imgur.com/lB5Io40.png)                                 | ![](https://i.imgur.com/RmCWoNg.png)                                 |
 
 當使用model進行照片轉到古畫的時候，效果就好多了。可以看到九張圖的顏色整體都會偏到淡黃色，當要轉換的圖片風格偏藍(綠)色的時候，轉換后一樣出現偏藍(綠)色。
 
@@ -185,3 +185,6 @@ Conclusion:
 
 <br/><br/>
 <br/><br/><br/>
+×
+Drag and Drop
+The image will be downloaded by Fatkun
