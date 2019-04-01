@@ -75,13 +75,21 @@ Test result:89k iteration
 古畫轉風景：慢，學習綠色和藍色
 
 
+<img src="https://i.imgur.com/DNsRM0v.png" width="180">
+
+| ![](https://i.imgur.com/ku0lW6a.png)  | ![](https://i.imgur.com/Zg2k6ma.png)  | ![](https://i.imgur.com/nR7wUcS.png)  | ![](https://i.imgur.com/ejgcnaN.png)  | ![](https://i.imgur.com/3xtrCnr.png) |
+|---------------------------------------|---------------------------------------|---------------------------------------|---------------------------------------|--------------------------------------|
+| ![](https://i.imgur.com/ZIBHGRD.png)  | ![](https://i.imgur.com/vIN4gsR.png)  | ![](https://i.imgur.com/lR7PGQA.png)  | ![](https://i.imgur.com/07FdFRW.png)  | ![](https://i.imgur.com/EP8REqK.png) |
+
+
+
 |    MUNIT                                                | ![](https://i.imgur.com/klgcr9G.png) | ![](https://i.imgur.com/cEDUBRZ.png) | ![](https://i.imgur.com/nCqHRiW.png) |
 |--------------------------------------|--------------------------------------|--------------------------------------|-------------------------------------|
 | ![](https://i.imgur.com/DNsRM0v.png) | ![](https://i.imgur.com/HQgjkUj.png)                                    | ![](https://i.imgur.com/4HwsI3E.png)                                    | ![](https://i.imgur.com/ab7PnUQ.png)                                    |
 | ![](https://i.imgur.com/Cj3hdo3.png) | ![](https://i.imgur.com/78ZbIQ0.png)                                   | ![](https://i.imgur.com/KbU9q7t.png)                                   | ![](https://i.imgur.com/jwnZFbx.png)                                  |
 | ![](https://i.imgur.com/jXL2sqg.png)| ![](https://i.imgur.com/oxWhjjx.png)                                  | ![](https://i.imgur.com/H0aZXj3.png)                                  | ![](https://i.imgur.com/PffnLjS.png)                                 |
 
-以上是將古風轉換為照片的inference的結果，可以看到當照片的顏色偏暗的話，結果一樣會變暗，反之亦然。可以看到結果並不是那麼理想，因為比如其中的人像，經過轉換之後還有看得出會有人像的部分。在訓練過程中，效果都挺好的，但是因為人為因素導致inference的時候效果並不理想。
+以上是將古風轉換為照片的inference的結果，可以看到當照片的顏色偏暗的話，結果一樣會變暗，反之亦然。可以看到結果並不是那麼理想，因為比如其中的人像，經過轉換之後還有看得出會有人像的部分。在訓練過程中，效果都挺好的，但是因為未知因素導致inference的時候效果並不理想。
 
 |    MUNIT                                                          | ![](https://i.imgur.com/DNsRM0v.png) | ![](https://i.imgur.com/Cj3hdo3.png) | ![](https://i.imgur.com/jXL2sqg.png) |
 |--------------------------------------|--------------------------------------|--------------------------------------|-------------------------------------|
@@ -90,6 +98,8 @@ Test result:89k iteration
 | ![](https://i.imgur.com/nCqHRiW.png) | ![](https://i.imgur.com/xc9EVEC.png)                                  | ![](https://i.imgur.com/lB5Io40.png)                                 | ![](https://i.imgur.com/RmCWoNg.png)                                 |
 
 當使用model進行照片轉到古畫的時候，效果就好多了。可以看到九張圖的顏色整體都會偏到淡黃色，當要轉換的圖片風格偏藍(綠)色的時候，轉換后一樣出現偏藍(綠)色。
+
+
 
 ----
 ----
