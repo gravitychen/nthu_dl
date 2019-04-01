@@ -67,12 +67,12 @@ Test result:46k iteration
 ![](https://i.imgur.com/1ZeSSBN.jpg)
 
 
-風景轉古畫： 快，學習淡黃色
+風景轉浮世繪： 快，學習淡黃色
 
 Test result:89k iteration
 ![](https://i.imgur.com/RYZKhe0.jpg)
 
-古畫轉風景：慢，學習綠色和藍色
+浮世繪轉風景：慢，學習綠色和藍色
 
 
 <img src="https://i.imgur.com/DNsRM0v.png" width="180">
